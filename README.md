@@ -19,7 +19,7 @@ Our project is a redesign of Syracuse University’s MySlice student portal, dev
 
 ## How to Run the Website
 
-1. Download or clone the repository to your local machine: git clone [repo]
+1. Download or clone the repository to your local machine: git clone https://github.com/krverma107/CIS400HCI.git
 2. Open `index.html` in any modern web browser (Chrome, Firefox, Safari, etc.)
 
 Alternatively click on the link: https://krverma107.github.io/CIS400HCI/
