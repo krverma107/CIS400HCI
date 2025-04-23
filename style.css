@@ -108,7 +108,7 @@
   
     main {
         padding: 2rem;
-        max-width: 100%;
+        max-width: 960px;
         width: 100%;
         box-sizing: border-box;
         margin: 0 auto;
@@ -129,5 +129,6 @@
         margin: 0 auto;
         padding: 0 1rem;
       }
+      
       
   }  
