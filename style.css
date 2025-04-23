@@ -94,6 +94,23 @@
   a:hover {
     color: var(--orange);
   }
+
+  .responsive-img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+  }
+  
+  .img-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
   
   @media (max-width: 768px) {
     nav {
@@ -113,22 +130,5 @@
         box-sizing: border-box;
         margin: 0 auto;
       }
-
-      .responsive-img {
-        width: 100%;
-        max-width: 800px;
-        height: auto;
-        display: block;
-        margin: 2rem auto;
-        border-radius: 8px;
-        box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
-      }
-      
-      .img-wrapper {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 0 1rem;
-      }
-      
-      
+         
   }  
