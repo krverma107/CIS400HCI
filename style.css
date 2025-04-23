@@ -8,6 +8,11 @@
     --text-dark: #1a1a1a;
     --font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
   
   body {
     margin: 0;
@@ -100,12 +105,19 @@
     }
 
     .responsive-img {
-        max-width: 90%;
+        max-width: 100%;
+        width: 100%;
         height: auto;
         display: block;
         margin: 2rem auto;
         border-radius: 8px;
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
-      }      
+      }
+      
+      .img-wrapper {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 1rem;
+      }
       
   }  
